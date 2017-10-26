@@ -15,9 +15,9 @@ install:
   - 7z x apache-maven-3.2.5-bin.zip -oC:\maven
 
 build_script:
-  - cd C:\Program Files (x86)\Apache\Maven
+  - cd C:\Maven
   - mvn clean install -DskipTests -B -U
 
 test_script:
-  - cd C:\Program Files (x86)\Apache\Maven
+  - cd C:\Maven
   - mvn test
